@@ -1,0 +1,89 @@
+tr_prosperity_finish = {
+	modifier = {
+		ascension_perks_add = 1
+		job_merchant_per_pop = 0.033
+	}
+
+	tradition_swap = {
+		name = tr_prosperity_finish_machine
+		inherit_effects = no
+		inherit_icon = yes
+		inherit_name = yes
+		trigger = {
+			is_machine_empire = yes
+		}
+
+		modifier = {
+			job_maintenance_drone_per_pop = 0.066
+			ascension_perks_add = 1
+		}
+
+		weight = {
+			factor = 1
+		}
+	}
+
+	tradition_swap = {
+		name = tr_prosperity_finish_hive
+		inherit_effects = no
+		inherit_icon = yes
+		inherit_name = yes
+		trigger = {
+			is_hive_empire = yes
+		}
+
+		modifier = {
+			job_synapse_drone_per_pop = 0.066
+			ascension_perks_add = 1
+		}
+
+		weight = {
+			factor = 1
+		}
+	}
+}
+
+tr_prosperity_interstellar_franchising = {
+	possible = {
+		has_tradition = tr_prosperity_administrative_operations
+	}
+
+	# old implementation done in districts file
+	# new implementation done in worker jobs file
+
+	tradition_swap = {
+		name = tr_prosperity_efficiency_algorithms
+		inherit_effects = no
+		inherit_icon = no
+		inherit_name = no
+		trigger = {
+			is_machine_empire = yes
+		}
+		modifier = {
+			country_energy_produces_mult = 0.05
+		}
+		weight = {
+			factor = 1
+		}
+	}
+
+	tradition_swap = {
+		name = tr_prosperity_efficiency_instincts
+		inherit_effects = no
+		inherit_icon = no
+		inherit_name = no
+		trigger = {
+			is_hive_empire = yes
+		}
+		modifier = {
+			country_energy_produces_mult = 0.05
+		}
+		weight = {
+			factor = 1
+		}
+	}
+
+	ai_weight = {
+		factor = 1000
+	}
+}

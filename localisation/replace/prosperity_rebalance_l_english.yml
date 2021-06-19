@@ -1,0 +1,5 @@
+﻿l_english:
+ tr_prosperity_interstellar_franchising_desc: "£job_clerk£ §Y$job_clerk_plural$§! produce §Y1§! additional £trade_value£ §Y$TRADE_VALUE$§! and §Y0.5§! additional £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!."
+ tr_prosperity_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_prosperity_adopt$ will give our planets §Y1§! £job_merchant£ §Y$job_merchant$ Job§! per §Y30§! £pop£ Pops."
+ tr_prosperity_finish_machine_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_prosperity_adopt_machine$ will give our planets §Y1§! £job_maintenance_drone£ §Y$job_maintenance_drone$ Job§! per §Y15§! £pop£ Pops."
+ tr_prosperity_finish_hive_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_prosperity_adopt_hive$ will give our planets §Y1§! £job_synapse_drone£ §Y$job_synapse_drone$ Job§! per §Y15§! £pop£ Pops."
