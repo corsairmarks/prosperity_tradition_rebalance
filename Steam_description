@@ -27,7 +27,7 @@ Stellaris requires overriding the entire containing file to make changes to a di
 
 This mod is not compatible with achievements because it overwrites core Stellaris files.
 
-### Post-Game Start
+[h3]Post-Game Start[/h3]
 
 This mod can be safely added or removed from your save game after the game has started.  Adding it will result in more Merchant jobs on some of your planets, but fewer Clerk jobs.  Removing it will cause the reverse - fewer Merchants and more Clerks.  In either case you will probably end up with unemployment.  Code-wise, however, it will not break your savegames.
 
@@ -50,3 +50,7 @@ Overriding a tradition generates an error log.  Expect to see two lines in the e
 [*]1.0.4 Tagged as "Balance" and fixed the image for Interstellar Franchising to show the actual effect of the mod (no script changes)
 [*]1.1.0 Add event to flag the mod as installed
 [/list]
+
+[h2]Source Code[/h2]
+
+[url=https://github.com/corsairmarks/prosperity_tradition_rebalance]Hosted on GitHub[/url]
