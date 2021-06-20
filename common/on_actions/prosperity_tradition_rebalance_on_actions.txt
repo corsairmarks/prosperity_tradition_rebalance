@@ -1,0 +1,13 @@
+# fires when the game starts
+on_game_start = {
+	events = {
+		prosperity_tradition_rebalance.13 # flag mod as installed
+	}
+}
+
+# no scope, like on_game_start
+on_monthly_pulse = {
+	events = {
+		prosperity_tradition_rebalance.13 # flag mod as installed, just in case this mod was added after game start
+	}
+}

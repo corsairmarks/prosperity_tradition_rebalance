@@ -1,25 +1,27 @@
-# Prosperity Tradition Rebalance
+[h1]Prosperity Tradition Rebalance[/h1]
 
 Patch 3.0 (Dick) and its immediate bugfix patches 3.0.1, 3.0.2, and 3.0.3 have reduced Pop counts on most planets (or habitats/ringworlds) drastically.  The Prosperity tradition has not been updated to reflect the expected lower Pop counts, so this mod makes a few small changes to improve it.
 
-Inspired by [this](https://www.reddit.com/r/Stellaris/comments/njvnys/is_there_a_mod_that_rebalanced_the_prosperity/) post on Reddit.
+Inspired by [url=https://www.reddit.com/r/Stellaris/comments/njvnys/is_there_a_mod_that_rebalanced_the_prosperity/]this[/url] post on Reddit.
 
-# Changes
+[h2]Changes[/h2]
 
 The regular empire tradition Interstellar Franchising added 1 Clerk job to each city district.  Because Pop counts are now much lower (and in the spirit of the 3.0.3 changes to the job bonus production buildings), this has been altered to instead increase the Trade Value of each Clerk by 1 and Amenities by 0.5.  Machine and hive-minded empires already receive a bonus to energy production instead, and that did not need adjustment.
 
 The regular finishing effect provided 1 Merchant job per 50 Pops.  In the spirit of the approximately halved capital building Pops requirements, the finisher has been changed to 1 Merchant job per 30 jobs.  Similarly, machine empires and hive-minded empires receive 1 maintenance/synapse drone (respectively) per 15 Pops (rather than 1 per 20).
 
-## Compatibility
+[h2]Compatibility[/h2]
 
 Requires Stellaris version 3.0.3.  This mod alters the following core Stellaris files:
 
-* `districts/00_urban_districts.txt` - entire file, removes section for bonus clerk job for city districts
-* `districts/01_arcology_districts.txt` - entire file, removes section for bonus clerk jobs for residential arcologies
-* `districts/03_habitat_districts.txt` - entire file, removes section for bonus clerk job for commercial districts
-* `districts/04_ringworld_districts.txt` - entire file, removes section for bonus clerk jobs for commercial segments
-* `pop_jobs/03_worker_jobs.txt` - entire file, contains most worker-tier jobs (**NOT** compatible with my mod [Technician Job Priority Fix for Slaves](https://steamcommunity.com/workshop/filedetails/?id=2484702578) - this one includes the same fix)
-* `traditions/00_prosperity.txt` - replaces two traditions `tr_prosperity_finish` and `tr_prosperity_interstellar_franchising` (new file `01_prosperity_overrides.txt`)
+[list]
+[*][i]districts/00_urban_districts.txt[/i] - entire file, removes section for bonus clerk job for city districts
+[*][i]districts/01_arcology_districts.txt[/i] - entire file, removes section for bonus clerk jobs for residential arcologies
+[*][i]districts/03_habitat_districts.txt[/i] - entire file, removes section for bonus clerk job for commercial districts
+[*][i]districts/04_ringworld_districts.txt[/i] - entire file, removes section for bonus clerk jobs for commercial segments
+[*][i]pop_jobs/03_worker_jobs.txt[/i] - entire file, contains most worker-tier jobs ([b]NOT[/b] compatible with my mod [url=https://steamcommunity.com/workshop/filedetails/?id=2484702578]Technician Job Priority Fix for Slaves[/url] - this one includes the same fix)
+[*][i]traditions/00_prosperity.txt[/i] - replaces two traditions [i]tr_prosperity_finish[/i] and [i]tr_prosperity_interstellar_franchising[/i] (new file [i]01_prosperity_overrides.txt[/i])
+[/list]
 
 Stellaris requires overriding the entire containing file to make changes to a district or job (there are technical consequences if not).  That means this mod is incompatible with other mods that make changes to almost any type of districts (other than the rural types: generator, mining, and farming) and mods that change worker-strata jobs.  Additionally it will not be compatible with mods that alter the same traditions (Prosperity Finisher and Interstellar Franchising).
 
@@ -29,24 +31,22 @@ This mod is not compatible with achievements because it overwrites core Stellari
 
 This mod can be safely added or removed from your save game after the game has started.  Adding it will result in more Merchant jobs on some of your planets, but fewer Clerk jobs.  Removing it will cause the reverse - fewer Merchants and more Clerks.  In either case you will probably end up with unemployment.  Code-wise, however, it will not break your savegames.
 
-## Known Issues
+[h2]Known Issues[/h2]
 
 Overriding a tradition generates an error log.  Expect to see two lines in the error.log file similar to these:
 
-```
+[code]
 [00:56:58][game_singleobjectdatabase.h:147]: Object with key: tr_prosperity_finish already exists
 [00:56:58][game_singleobjectdatabase.h:147]: Object with key: tr_prosperity_interstellar_franchising already exists
-```
+[/code]
 
-## Changelog
+[h2]Changelog[/h2]
 
-* 1.0.0 Initial version
-* 1.0.1 Credit inspiration
-* 1.0.2 Fix tooltip to match actual Clerk Trade Value bonus
-* 1.0.3 Speeeeling
-* 1.0.4 Tagged as "Balance" and fixed the image for Interstellar Franchising to show the actual effect of the mod (no script changes)
-* 1.1.0 Add event to flag the mod as installed
-
-## Source Code
-
-[Hosted on GitHub](https://github.com/corsairmarks/prosperity_tradition_rebalance)
+[list]
+[*]1.0.0 Initial version
+[*]1.0.1 Credit inspiration
+[*]1.0.2 Fix tooltip to match actual Clerk Trade Value bonus
+[*]1.0.3 Speeeeling
+[*]1.0.4 Tagged as "Balance" and fixed the image for Interstellar Franchising to show the actual effect of the mod (no script changes)
+[*]1.1.0 Add event to flag the mod as installed
+[/list]
