@@ -5,7 +5,6 @@ event = {
 	id = prosperity_tradition_rebalance.13
 	hide_window = yes
 	is_triggered_only = yes
-	fire_only_once = yes
 	trigger = {
 		NOT = { has_global_flag = prosperity_tradition_rebalance_installed }
 	}
