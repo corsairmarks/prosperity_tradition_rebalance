@@ -42,16 +42,10 @@ Overriding a tradition generates an error log.  Expect to see two lines in the e
 
 [h2]Changelog[/h2]
 
-[list]
-[*]1.0.0 Initial version
-[*]1.0.1 Credit inspiration
-[*]1.0.2 Fix tooltip to match actual Clerk Trade Value bonus
-[*]1.0.3 Speeeeling
-[*]1.0.4 Tagged as "Balance" and fixed the image for Interstellar Franchising to show the actual effect of the mod (no script changes)
-[*]1.1.0 Add event to flag the mod as installed
-[*]1.1.1 Remove extra images files to keep distribution lightweight (no script changes)
-[/list]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2497266630]Change Notes[/url]
 
 [h2]Source Code[/h2]
 
-[url=https://github.com/corsairmarks/prosperity_tradition_rebalance]Hosted on GitHub[/url]
+Hosted on [url=https://github.com/corsairmarks/prosperity_tradition_rebalance]GitHub[/url]
+
+[url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]

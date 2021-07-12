@@ -47,10 +47,14 @@ Overriding a tradition generates an error log.  Expect to see two lines in the e
 * 1.0.4 Tagged as "Balance" and fixed the image for Interstellar Franchising to show the actual effect of the mod (no script changes)
 * 1.1.0 Add event to flag the mod as installed
 * 1.1.1 Remove extra images files to keep distribution lightweight (no script changes)
+* 1.2.0 Maintenance release
+    * Update description
+    * Remove monthly pulse event
+    * Add event to flag as installed when single-player game is loaded
 
 ## Source Code
 
-[Hosted on GitHub](https://github.com/corsairmarks/prosperity_tradition_rebalance)
+Hosted on [GitHub](https://github.com/corsairmarks/prosperity_tradition_rebalance)
 
 ### Development Notes
 
