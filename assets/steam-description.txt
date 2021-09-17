@@ -1,4 +1,4 @@
-[b][i]DEPRECATED:[/i][/b] The Prosperity tradition's finisher has changed with 3.1.1 "Lem" - it is now +5 stability and +5% job output.  The Mercantile tradition also provides a tradition for +1 trade value per Clerk.  For me, that means this mod is no longer adding or tweaking gameplay in a meaningful way.  It remains listed for players who choose to play in the 3.0.3 and 3.0.4 "Dick" versions of Stellaris.
+[b][i]DEPRECATED:[/i][/b] The Prosperity tradition's finisher has changed with 3.1.1 "Lem" - it is now +5 stability and +5% job output.  The Mercantile tradition also provides a trait for +1 trade value per Clerk.  For me, that means this mod is no longer adding or tweaking gameplay in a meaningful way.  It remains listed for players who choose to play in the 3.0.3 and 3.0.4 "Dick" versions of Stellaris.
 
 [h1]Prosperity Tradition Rebalance[/h1]
 
