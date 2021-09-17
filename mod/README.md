@@ -1,6 +1,8 @@
+**_DEPRECATED:_** The Prosperity tradition's finisher has changed with 3.1.1 "Lem" - it is now +5 stability and +5% job output.  The Mercantile tradition also provides a tradition for +1 trade value per Clerk.  For me, that means this mod is no longer adding or tweaking gameplay in a meaningful way.  It remains listed for players who choose to play in the 3.0.3 and 3.0.4 "Dick" versions of Stellaris.
+
 # Prosperity Tradition Rebalance
 
-Patch 3.0 (Dick) and its immediate bugfix patches 3.0.1, 3.0.2, and 3.0.3 have reduced Pop counts on most planets (or habitats/ringworlds) drastically.  The Prosperity tradition has not been updated to reflect the expected lower Pop counts, so this mod makes a few small changes to improve it.
+Patch 3.0 (Dick) and its immediate bugfix patches have reduced Pop counts on most planets (or habitats/ringworlds) drastically.  The Prosperity tradition has not been updated to reflect the expected lower Pop counts, so this mod makes a few small changes to improve it.
 
 Inspired by [this](https://www.reddit.com/r/Stellaris/comments/njvnys/is_there_a_mod_that_rebalanced_the_prosperity/) post on Reddit.
 
@@ -25,7 +27,7 @@ Stellaris requires overriding the entire containing file to make changes to a di
 
 This mod is not compatible with achievements because it overwrites core Stellaris files.
 
-### Post-Game Start
+### When to Install
 
 This mod can be safely added or removed from your save game after the game has started.  Adding it will result in more Merchant jobs on some of your planets, but fewer Clerk jobs.  Removing it will cause the reverse - fewer Merchants and more Clerks.  In either case you will probably end up with unemployment.  Code-wise, however, it will not break your savegames.
 
@@ -51,6 +53,7 @@ Overriding a tradition generates an error log.  Expect to see two lines in the e
     * Update description
     * Remove monthly pulse event
     * Add event to flag as installed when single-player game is loaded
+* 1.2.1 Mark as deprecated - redundant in Stellaris 3.1.1 "Lem" and higher
 
 ## Source Code
 
